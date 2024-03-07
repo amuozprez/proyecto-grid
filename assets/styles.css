@@ -45,6 +45,8 @@ aside {
   grid-area: sidebar;
   background-color: rgb(214, 214, 214);
   color: black;
+  display: flex;
+  flex-direction: column;
 }
 
 aside h2 {
@@ -79,6 +81,8 @@ main {
 .producto {
   border: 1px solid black;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .producto img {
